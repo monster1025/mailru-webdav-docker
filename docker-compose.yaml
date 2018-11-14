@@ -1,4 +1,6 @@
-proxy:
-  build: .
+wdmrc:
+  image: monster1025/mailru-webdav-docker
+  container_name: wdmrc
+  restart: always
   ports: 
     - "801:801"
